@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+	height: 100vh;
+}
+
+.a {
+	text-decoration: none;
+}
+
+// index
+#landing {
+	height: calc(100vh - 56px);
+}
+
+// #photo {
+// 	border-radius: 50%;
+
+// 	aspect-ratio: 1;
+// 	object-fit: cover;
+// }
+
+#education, #employment {
+	border-radius: 50px;
+}
+
+#school {
+	height: 100px;
+	width: 100px;
+
+	border-radius: 25px;
+	background-color: white;
+}
+
+#logo {
+	width: 64px;
+	height: auto;
+}
