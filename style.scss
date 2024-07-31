@@ -8,6 +8,10 @@ body {
 	height: 100vh;
 }
 
+h4 {
+	text-align: end;
+}
+
 .a {
 	text-decoration: none;
 }
@@ -30,7 +34,7 @@ body {
 
 #school {
 	height: 100px;
-	width: 100px;
+	flex-basis: 100px;
 
 	border-radius: 25px;
 	background-color: white;
